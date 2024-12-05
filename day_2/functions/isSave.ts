@@ -1,5 +1,5 @@
 export function isSafe(numbers: number[]) {
-  if (numbers.length <= 4)
+  if (numbers.length <= 3)
     throw new Error("Array must have at least 4 elements");
 
   const isAscending = numbers.every(
