@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "target": "es5", // Keep the target at es5 or any version lower than es2015
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "downlevelIteration": true // Enable downlevel iteration for older environments
-  }
-}
