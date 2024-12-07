@@ -1,4 +1,5 @@
 import { wordSearch } from "./functions/wordSearch";
+import { wordSearchCross } from "./functions/wordSearchCross";
 
 const fs = require("fs");
 
@@ -9,3 +10,5 @@ const rows: string[] = input.split("\n");
 const splitRowsIntoLetters = rows.map((row) => row.split(""));
 
 console.log("part1:", wordSearch(splitRowsIntoLetters, "XMAS"));
+
+console.log("part2:", wordSearchCross(splitRowsIntoLetters, "MAS", "A"));
